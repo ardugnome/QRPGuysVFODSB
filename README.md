@@ -11,7 +11,7 @@ WWV stations begin with bn 2.5 for 2.5MHz, bn 5 for 5MHz, bn 10 for 10MHz and bn
 
 CHU station will read bn3.33 for 3.33MHz. More information here https://en.wikipedia.org/wiki/CHU_(radio_station)
 
-!!! WARNING !!!  4m band is not available in the USA and many other countries, it was included for our friends accross the pond. More information here https://en.wikipedia.org/wiki/4-meter_band
+!!! WARNING !!!  4m band is not available in the USA and many other countries, it was included for our friends across the pond. More information here https://en.wikipedia.org/wiki/4-meter_band
 
 You are responsible for everything that goes wrong, including my bad code! Kind of like being married. HI
 
