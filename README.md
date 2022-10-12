@@ -25,3 +25,6 @@ You are responsible for everything that goes wrong, including my bad code! Kind 
 
 5. Don't forget to choose Sketch>Upload Using Programmer when uploading your code.
 
+Update 10/11/2022 (changed time stations to display "bt" instead of "bn")
+
+WWV stations now read bt 2.5 for 2.5MHz, bt 5 for 5MHz, bt 10 for 10MHz and bt 15 for 15MHz. CHU station reads bt3.33 for 3.33MHz. 
