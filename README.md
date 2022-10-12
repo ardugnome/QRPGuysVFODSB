@@ -15,3 +15,13 @@ CHU station will read bn3.33 for 3.33MHz. More information here https://en.wikip
 
 You are responsible for everything that goes wrong, including my bad code! Kind of like being married. HI
 
+1. I assume you have an external programmer, if not buy one, or make it.
+
+2. Prepare your Arduino environment by downloading https://github.com/technoblogy/atmegabreadboard the hardware recognition code and put it in your Arduino's IDE hardware directory. If you don't have it create it.
+
+3. Make sure your settings correspond to the JPEG file shown here.
+
+4. You may have to burn a bootloader if the sketch is slow to respond (Chances are it is running internal oscillator)
+
+5. Don't forget to choose Sketch>Upload Using Programmer when uploading your code.
+
