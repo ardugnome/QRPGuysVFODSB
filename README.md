@@ -13,7 +13,7 @@ CHU station will read bn3.33 for 3.33MHz. More information here https://en.wikip
 
 !!! WARNING !!!  4m band is not available in the USA and many other countries, it was included for our friends across the pond. More information here https://en.wikipedia.org/wiki/4-meter_band
 
-You are responsible for everything that goes wrong, including my bad code! Kind of like being married. HI
+You are responsible for everything that goes wrong, including my bad code! 
 
 1. I assume you have an external programmer, if not buy one, or make it.
 
