@@ -1,14 +1,18 @@
 # QRPGuysVFODSB
-A fork of the original QRP Guys FT8_VFO.030521. Manual found here: https://qrpguys.com/wp-content/uploads/2020/04/digital_txcvr_assembly_030720.pdf
+A fork of the original QRP Guys VFO FT8_VFO.030521, page and code here: https://qrpguys.com/vfo-dsb-digital-transceiver-kit
 
-Purpose is to expand bands offered, and to correct FT8 Frequencies found in the original Arduino code. 
+Manual for the DSB transceiver found here: https://qrpguys.com/wp-content/uploads/2020/04/digital_txcvr_assembly_030720.pdf 
+
+Manual  for the VFO module found here: https://qrpguys.com/wp-content/uploads/2022/04/si5351a_vfo_assyt_021422.pdf
+
+Purpose is to expand bands offered and to correct FT8 Frequencies found in the original Arduino code. 
 Secondary purpose is to add CHU and WWV frequencies.
 
 v1.1 Update 10/11/2022 (changed time stations to display "bt" instead of "bn")
 
 WWV stations now read bt 2.5 for 2.5MHz, bt 5 for 5MHz, bt 10 for 10MHz and bt 15 for 15MHz. CHU station reads bt3.33 for 3.33MHz. 
 
-Display will now read bn 160 for 160m, bn 6 for 6m, bn 4 for 4m, bn 1.2 for 1.2m, bn .70 for 70cm for ham bands
+Display will read bn 160 for 160m, bn 6 for 6m, bn 4 for 4m, bn 1.2 for 1.2m, bn .70 for 70cm for ham bands
 
 WWV stations begin with bt 2.5 for 2.5MHz, bt 5 for 5MHz, bt 10 for 10MHz and bt 15 for 15MHz. More information here https://en.wikipedia.org/wiki/WWV_(radio_station)
 
@@ -20,9 +24,9 @@ CHU station will read bt3.33 for 3.33MHz. More information here https://en.wikip
 
 1. I assume you have an external programmer, if not buy one, or make it.
 
-2. Prepare your Arduino environment by downloading https://github.com/technoblogy/atmegabreadboard the hardware recognition code and put it in your Arduino's IDE hardware directory. If you don't have it create it.
+2. Prepare your Arduino environment by downloading https://github.com/technoblogy/atmegabreadboard the hardware recognition code and put it in your Arduino's IDE hardware directory. If you don't have it, create it.
 
-3. Make sure your settings correspond to the JPEG file shown here.
+3. Make sure your settings correspond to the JPEG file shown.
 
 4. You may have to burn a bootloader first if the sketch is slow to respond (Chances are it is running internal oscillator)
 
