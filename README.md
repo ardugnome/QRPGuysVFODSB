@@ -1,6 +1,7 @@
 # QRPGuysVFODSB
-A fork of the original QRP Guys FT8_VFO.030521
-Purpose is to expand bands offered and  to correct FT8 Frequencies found in the original code.
+A fork of the original QRP Guys FT8_VFO.030521. Manual found here: https://qrpguys.com/wp-content/uploads/2020/04/digital_txcvr_assembly_030720.pdf
+
+Purpose is to expand bands offered, and to correct FT8 Frequencies found in the original Arduino code. 
 Secondary purpose is to add CHU and WWV frequencies.
 
 v1.1 Update 10/11/2022 (changed time stations to display "bt" instead of "bn")
